@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Rock paper scissors</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="bg">
+            <header>
+                <h1>Rock, Paper, or Scissors?</h1>
+            </header>
+            <div class="score-board">
+                <div id="player-label" class="badge">player</div>
+                <div id="computer-label" class="badge">computer</div>
+                <span id="player-score">0</span>:<span id="computer-score">0</span>
+            </div>
+
+            <div class="result">
+                <p></p>
+            </div>
+
+            <div class="choices">
+                <div class="choice" id="rock">
+                    <p>Rock</p>
+                </div>
+                <div class="choice" id="paper">
+                    <p>Paper</p>
+                </div>
+                <div class="choice" id="scissors">
+                    <p>Scissors</p>
+                </div>
+            </div>
+            <div>
+                <button id="reset">Play Again!</button>
+            </div>
+        </div>
+        <script src="rps.js"></script>
+    </body>
+</html>
